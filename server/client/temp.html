@@ -1,0 +1,7 @@
+<p>Enter city/town, province/state, and country.</p>
+<input ng-model="address"></input>
+<button ng-click="getTemperature(address)">Get temperature</button>
+<p ng-if="location && temperature">The temperature in {{location}} is {{temperature}} C</p>
+<p></p>
+
+<just-gage id="test1" class="someClass" min=-50 max=50 value="temperature" title="Test 1"></just-gage>
